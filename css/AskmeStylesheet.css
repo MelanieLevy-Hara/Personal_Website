@@ -60,7 +60,7 @@
             -moz-transform: rotateX(0deg) rotateY(0deg);
         }
 		.neighborhood-guides{
-		    background-color: #efefef;
+		    background-color: transparent;
 		    border-bottom: 1px solid #dbdbdb;
 		    }
 
