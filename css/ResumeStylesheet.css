@@ -1,12 +1,24 @@
+@font-face{
+    font-family: elephant;
+    src: url("fonts/elephant.ttf");
+}
 body {
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: white;
-  background-image: url('../../img/bluebackground2.jpg');
-  background-repeat: repeat-y;
 }
 .transparent{
     background-color: transparent;
     width:780px;
-    height:80px;
+    height:90px;
+    padding-left:15px;
+}
+.transparent h3{
+    color: #66cccc;
+    font-family: elephant;
+    font-size: 4em;
+    font-style: italic;
+}
+.large-12{
+
+    margin: 5%;
 }

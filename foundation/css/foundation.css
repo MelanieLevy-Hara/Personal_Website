@@ -39,9 +39,9 @@ body {
   font-size: 100%; }
 
 body {
-  background-image: url("../../img/bluebackground3.jpg"), url("../../img/bluebackground2.jpg");
+  background-image: url("http://ginva.com/wp-content/uploads/2012/02/simple-wallpaper-20.jpg") ;/*url("../../img/bluebackground3.jpg")*/
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: #000000;
   padding: 0;
   margin: 0;
