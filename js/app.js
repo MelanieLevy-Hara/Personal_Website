@@ -1,14 +1,18 @@
-(function(){
-	var app=angular.module('store', []);
+(function() {
+  var app = angular.module('website', []);
 
-	app.controller('StoreController', function(){
-		this.product=gem;
+  app.controller('TabController', function(){
+    this.tab = 1;
 
-	});
-	var gem = {
-		name: "Doogy",
-		price: 2.95,
-		description: 'red',
-	}
+    this.setTab = function(newValue){
+      this.tab = newValue;
+    };
+
+    this.isSet = function(tabName){
+      return this.tab === tabName;
+    };
+  });
 
 })();
+
+  
